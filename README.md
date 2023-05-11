@@ -2,7 +2,7 @@
 
 The code uses Python 3.7.16
 
-The relevant dependency libraries can be found in requests.txt
+The relevant dependency libraries can be found in requirements.txt
 
 This code includes mahakil, xgboost, gridsearchcv, and K-Fold Cross Validation.
 
