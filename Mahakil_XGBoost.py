@@ -54,7 +54,7 @@ def train_mak_xgb(X, Y):
 
     end = time.time()
     running_time = end - start
-    print("耗时%0.2f秒。平均得分是：%0.2f%%" %
+    print("cost time: %0.2f s.  ave_scores：%0.2f%%" %
           (running_time, sum(scores_all)/len(scores_all)*100))
 
     return clf_scores_max
